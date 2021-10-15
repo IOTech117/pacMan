@@ -1,17 +1,23 @@
 {
-    "name": "pacman",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node server.js"
-    },
-    "author": "jrw",
-    "license": "MIT",
-    "dependencies": {
-        "express": "^4.17.1",
-        "node": "^10.15.0",
-        "pug": "^2.0.4"
-    }
+  "name": "pacman",
+  "version": "1.0.0",
+  "description": "Pacman",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IOTech117/pacMan.git"
+  },
+  "author": "jrw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IOTech117/pacMan/issues"
+  },
+  "homepage": "https://github.com/IOTech117/pacMan#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
